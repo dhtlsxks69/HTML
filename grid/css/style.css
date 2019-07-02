@@ -1,0 +1,119 @@
+/*위의 박스를 중앙으로 오게할 때
+1. margin: 0 auto 를 줄떄는 block 속성이어야 함
+2. div안에 다른 div를 만들고 바깥쪽박스를 인라인 블럭을 설정한후 안쪽박스를 텍스트얼라인센터지정*/
+
+.header {
+    border: 1px solid rgb(192, 191, 191);
+    width: 650px;
+    height: 650px;
+    background-color: rgb(207, 207, 207);
+    margin: 0 auto;
+}
+
+.container {
+    display: grid;
+}
+
+.title {
+    display: grid;
+    justify-content: center;
+    color: tomato;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.article {
+    display: grid;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.grid__box {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    margin: 0 0 0 30px;
+}
+
+.btn button {
+    width: 200px;
+    height: 30px;
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.grid__img1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url("../images/san-francisco.jpg");
+    width: 150px;
+    height: 150px;
+    background-size: 100% 100%;
+}
+
+.grid__img2 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url("../images/new-york.jpg");
+    width: 150px;
+    height: 150px;
+    background-size: 100% 100%;
+}
+
+.grid__img3 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url("../images/london.jpg");
+    width: 150px;
+    height: 150px;
+    background-size: 100% 100%;
+}
+
+.grid__img4 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url("../images/napa.jpg");
+    width: 150px;
+    height: 150px;
+    background-size: 100% 100%;
+}
+
+.grid__img5 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url("../images/sonoma.jpg");
+    width: 150px;
+    height: 150px;
+    background-size: 100% 100%;
+}
+
+.grid__img6 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url("../images/san-francisco-2.jpg");
+    width: 150px;
+    height: 150px;
+    background-size: 100% 100%;
+}
+
+.btn {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,147 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url("../images/background.jpg");
+    background-size: 100% 100%;
+    height: 890px;
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+    padding: 10px 10px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+}
+
+.menu li {
+    padding: 0 15px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 15px 0 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    
+}
+
+.search__box {
+    width: 480px;
+    height: 450px;
+    background-color: white;
+    position: relative;
+    top: 40px;
+    left: 250px;
+    display: grid;
+}
+
+.search__box table {
+    font-size: 15px;
+    display: inline-block;
+    margin: 20px 30px;
+}
+
+.te1 {
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+}
+
+.te2 {
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+.te3 {
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+.te4 {
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+}
+
+.btn {
+    background-color: tomato;
+    color: white;
+    width: 70px;
+    height: 40px;
+    border: 1px solid gray;
+    display: grid;
+    margin: 0 0 0 360px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.sec__title {
+    font-size: 20px;
+    font-weight: 800;
+    display: inline-block;
+    margin: 50px 0 0 50px;
+}
+
+.card__box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border: 1px solid rgb(192, 191, 191);
+    border-radius: 6px;
+    box-shadow: 0 0 3px 0 gray;
+}
+
+.card__img1 {
+    background-image: url("../images/card1.jpg");
+    height: 70px;
+    background-size: 100% 100%;
+}
+
+.card__img2 {
+    background-image: url("../images/card2.jpg");
+    height: 70px;
+    background-size: 100% 100%;
+}
+
+.card__img3 {
+    background-image: url("../images/card3.jpg");
+    height: 70px;
+    background-size: 100% 100%;
+}
+
+.card__img4 {
+    background-image: url("../images/card4.jpg");
+    height: 70px;
+    background-size: 100% 100%;
+}
+
+.card__content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
